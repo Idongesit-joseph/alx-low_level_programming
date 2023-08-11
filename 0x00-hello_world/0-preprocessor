@@ -1,0 +1,10 @@
+`
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
+
+gcc -E $CFILE -o file
