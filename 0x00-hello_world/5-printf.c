@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main- this is a string 
+ * main- this is a string
+ *
  * Return: this end it all
  */
 
