@@ -1,10 +1,15 @@
 #include <stdio.h>
+#include <bits/libc-header-start.h>
+#include <libc6-dev-i386.h>
 
 /**
  * main - checking the size of my computer
  *
  * Return: makes it successful
  */
+
+gcc 6-size.c -m32 -o size32 2> /tmp/32
+gcc 6-size.c -m64 -o size64 2> /tmp/64
 
 int main(void)
 {
