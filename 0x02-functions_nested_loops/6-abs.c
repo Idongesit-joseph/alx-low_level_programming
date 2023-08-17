@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign- check the code.
+ * _abs - check the code.
  * @c: Thw number
  * Return: Always 0.
  */
