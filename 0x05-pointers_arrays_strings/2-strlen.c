@@ -13,8 +13,7 @@ int _strlen(char *s)
 	while (*s != '\0')
 	{
 		longi++;
-	os++;
-	t@72b6d927dd15:/alx-low_level_programming/0x05-pointers_arrays_strings# gi
+		s++;
 	}
 
 return (longi);
