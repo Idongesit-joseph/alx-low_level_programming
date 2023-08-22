@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts_haif - a function bthat print haif the string
+ * puts_half - a function bthat print haif the string
  * if odd len, n = (length_of_the_string- 1)/2
  * @str: input
  * Return: half of input
