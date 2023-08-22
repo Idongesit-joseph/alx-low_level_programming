@@ -6,7 +6,7 @@
  * Return: length
  */
 
-int _strlen != (char * 5)
+int _strlen(char *s)
 {
 	int longi = 0;
 
