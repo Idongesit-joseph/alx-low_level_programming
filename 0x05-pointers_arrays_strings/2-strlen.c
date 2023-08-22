@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -strlen - returns the length of a string
+ * _strlen - returns the length of a string
  * @s: string
  * Return: length
  */
@@ -13,7 +13,8 @@ int _strlen(char *s)
 	while (*s != '\0')
 	{
 		longi++;
-		s++;
+	os++;
+	t@72b6d927dd15:/alx-low_level_programming/0x05-pointers_arrays_strings# gi
 	}
 
 return (longi);
