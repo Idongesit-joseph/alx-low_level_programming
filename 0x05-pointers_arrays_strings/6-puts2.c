@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 -<F12> function should print only bone character out of the two
+ * puts2 - function should print only bone character out of the two
  * startingt with the first one
  * @str: input
  * Return: print
@@ -24,7 +24,7 @@ void puts2(char *str)
 	{
 		if (o % 2 == 0)
 	{
-		_putchar(str[0]);
+		_putchar(str[o]);
 	}
 	}
 	_putchar('\n');
