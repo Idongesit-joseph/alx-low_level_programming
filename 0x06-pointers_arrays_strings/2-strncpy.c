@@ -1,25 +1,25 @@
 #include "main.h"
 
 /**
- * _strcmp - concatenate two strings
- * @s1: destination string
- * @s2: source string
- * Return: int
+ * _strncpy - copies at most
+ * @dest: the buffer
+ * @src: the source
+ * @n: the maximu
+ * Return: a pointer
  */
 
-int _strcmp(char *s1, char *s2)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int i;
-	for(i = 0 ;s1[i] != '\0' || s2[i] != '\0' ; i++)
-	{
-		if (s1[i] != s2[i])
-		{
-			if (s1[i] < s2[i])
-				return (s1[i] - s2[i]);
-			else if (s2[i] < s1[i])
-				return (s1[i] - s2[i]);
-		}
-	}
-	return (0);
-}
+        int index = 0, src_len = 0;
 
+        while (src[index++])
+        src_len++;
+
+        for (index = 0; src[index] && index < n; index++)
+        dest[index] = src[index];
+
+        for (index = src_len; index < n; index++)
+        dest[index] = '\0';
+
+        return (dest);
+}
