@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit(int c) - tart
+ * _isdigit - tart
  * @c: fjfh
  * Return: 0
  */
