@@ -3,8 +3,7 @@
 
 /**
  * _atoi - star the program
- * @s: fhvh
- * 
+ * @s: fhh
  * Return: 0
  */
 
