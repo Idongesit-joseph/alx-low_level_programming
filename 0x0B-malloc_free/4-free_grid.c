@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_grid(int **grid, int height) - start
+ * free_grid - start
  * @grid: aaaaaa
  * @height: bbbb
  * Return: 0
