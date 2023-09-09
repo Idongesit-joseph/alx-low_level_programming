@@ -3,6 +3,26 @@
 #include <stdio.h>
 
 /**
+ * *_memset - jfjfj
+ * @s: dvgjbjbj
+ * @b: ekk
+ * @n: jvjj
+ * Return: 0
+ */
+
+char *_memset(char *s, char b, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		s[i] = b;
+	}
+
+	return (s);
+}
+
+/**
  * _calloc - start
  * @size: aaaaaa
  * @nmemb: bbbb
@@ -15,9 +35,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	o = calloc(nmemb, size);
+	o = malloc(size * nmemb);
 	if (o == NULL)
 		return (NULL);
-	else
-		return (0);
+
+	_memset(o, 0, nmemb * size);
+	return (o);
 }
