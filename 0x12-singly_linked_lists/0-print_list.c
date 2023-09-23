@@ -1,4 +1,4 @@
-#include <lists.h>
+#include "lists.h"
 #include <stdio.h>
 
 /**
@@ -9,7 +9,7 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t s = 0
+	size_t s = 0;
 
 	while (h)
 	{
